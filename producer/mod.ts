@@ -6,7 +6,7 @@ import { delay } from "@std/async";
 const TORII_URL = Deno.env.get("TORII_URL");
 assert(TORII_URL, "Please set TORII_URL env var");
 
-const TXS_CHUNK = 20;
+const TXS_CHUNK = 200;
 const PUSH_DELAY = 1500;
 
 const CHAIN = `00000000-0000-0000-0000-000000000000`;
